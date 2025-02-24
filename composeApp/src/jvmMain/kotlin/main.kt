@@ -6,6 +6,7 @@ import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
 import java.awt.Dimension
 import cat.itb.m78.exercices.App
+import cat.itb.vnr.dam.m03.uf3.exercices.JokesScreen
 
 fun main() = application {
     Window(
@@ -14,9 +15,7 @@ fun main() = application {
         onCloseRequest = ::exitApplication,
     ) {
         window.minimumSize = Dimension(350, 600)
-        App()
+        //App()
+        JokesScreen()
     }
 }
-
-@Composable
-fun AppPreview() { App() }
