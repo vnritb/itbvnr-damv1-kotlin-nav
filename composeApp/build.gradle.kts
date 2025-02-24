@@ -104,10 +104,10 @@ android {
 }
 
 //https://developer.android.com/develop/ui/compose/testing#setup
-dependencies {
-    androidTestImplementation(libs.androidx.uitest.junit4)
-    debugImplementation(libs.androidx.uitest.testManifest)
-}
+//dependencies {
+//    androidTestImplementation(libs.androidx.uitest.junit4)
+//    debugImplementation(libs.androidx.uitest.testManifest)
+//}
 
 compose.desktop {
     application {
