@@ -1,4 +1,4 @@
-package cat.itb.vnr.dam.m03.uf3.exercices
+package cat.itb.m78.p2.samples
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

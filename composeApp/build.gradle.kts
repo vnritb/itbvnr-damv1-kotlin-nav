@@ -74,7 +74,8 @@ kotlin {
         }
 
         jvmMain.dependencies {
-            implementation(compose.desktop.currentOs)
+            //implementation(compose.desktop.currentOs)
+            implementation(compose.desktop.macos_arm64)
             implementation(libs.kotlinx.coroutines.swing)
             implementation(libs.ktor.client.okhttp)
         }

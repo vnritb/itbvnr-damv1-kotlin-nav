@@ -3,8 +3,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
+import cat.itb.m78.App
 import java.awt.Dimension
-import cat.itb.vnr.dam.m03.uf3.exercices.JokesScreen
 
 fun main() = application {
     Window(
@@ -13,7 +13,7 @@ fun main() = application {
         onCloseRequest = ::exitApplication,
     ) {
         window.minimumSize = Dimension(350, 600)
-        //App()
-        JokesScreen()
+        App()
+        //JokesScreen()
     }
 }

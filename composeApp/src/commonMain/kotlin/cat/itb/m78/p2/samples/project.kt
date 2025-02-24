@@ -1,3 +1,5 @@
+package cat.itb.m78.p2.samples
+
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 
